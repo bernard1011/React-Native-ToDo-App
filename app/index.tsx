@@ -83,7 +83,7 @@ export default function HomeScreen() {
                 size={64}
                 color={COLORS.textSecondary}
               />
-              <Text style={styles.emptySubtitle}>Додай своє перше завдання ☝️</Text>
+              <Text style={styles.emptySubtitle}>Додай своє перше завдання</Text>
             </View>
           )}
 
