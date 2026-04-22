@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# 📋 React Native ToDo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek, modern task management app built with React Native & Expo — featuring a glassmorphism UI, smooth animations, and persistent storage.
 
-## Get started
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- ➕ Add tasks with a single tap or keyboard submit
+- ✅ Mark tasks as complete with smooth visual feedback
+- 🗑️ Delete individual tasks or clear all at once
+- 💾 Persistent storage — tasks survive app restarts
+- 🎨 Glassmorphism UI with gradient background
+- 📱 Smooth animations when switching between empty/filled states
+- ⌨️ Keyboard-aware layout
 
-2. Start the app
+## 🛠️ Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+| Technology | Purpose |
+|---|---|
+| React Native + Expo | Cross-platform mobile framework |
+| TypeScript | Type safety |
+| AsyncStorage | Local data persistence |
+| expo-linear-gradient | Gradient background |
+| expo-blur | Glassmorphism effect |
+| @expo/vector-icons | Ionicons icon set |
+| Animated API | Native animations |
 
-In the output, you'll find options to open the app in a
+## 📁 Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+app/
+└── index.tsx              # Main screen
+components/
+├── TaskInput.tsx          # Input field + add button
+├── TaskItem.tsx           # Single task card
+└── TaskList.tsx           # Task list (FlatList)
+hooks/
+└── useTasks.ts            # Business logic + AsyncStorage
+constants/
+└── theme.ts               # Design tokens (colors, fonts, radius)
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Getting Started
 
-## Learn more
+### Prerequisites
+- Node.js 18+
+- Expo Go app on your phone ([iOS](https://apps.apple.com/app/expo-go/id982107779) / [Android](https://play.google.com/store/apps/details?id=host.exp.exponent))
 
-To learn more about developing your project with Expo, look at the following resources:
+### Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 
-## Join the community
+# Navigate to project folder
+cd YOUR_REPO_NAME
 
-Join our community of developers creating universal apps.
+# Install dependencies
+npm install
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start the development server
+npx expo start
+```
+
+Scan the QR code with Expo Go and the app will open on your device.
+
+## 📱 Try it out
+
+🔗 **[Open in Expo Go](https://expo.dev/YOUR_LINK)**
