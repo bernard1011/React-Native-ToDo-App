@@ -74,4 +74,3 @@ Scan the QR code with Expo Go and the app will open on your device.
 
 🔗 **[EAS Dashboard](https://expo.dev/accounts/bernard1011/projects/ToDo/updates/e88c5dc4-8dbd-4453-8d07-018b96a54947)**
 
-📱 **Open in Expo Go:** `exp://u.expo.dev/c6632ceb-9e8e-48d2-9c3e-69efb91b5075?channel-name=main`
