@@ -53,10 +53,10 @@ constants/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/bernard1011/React-Native-ToDo-App.git
 
 # Navigate to project folder
-cd YOUR_REPO_NAME
+cd React-Native-ToDo-App
 
 # Install dependencies
 npm install
@@ -69,4 +69,9 @@ Scan the QR code with Expo Go and the app will open on your device.
 
 ## 📱 Try it out
 
-🔗 **[Open in Expo Go](https://expo.dev/YOUR_LINK)**
+![alt text](assets/images/eas-update.svg)
+
+
+🔗 **[EAS Dashboard](https://expo.dev/accounts/bernard1011/projects/ToDo/updates/e88c5dc4-8dbd-4453-8d07-018b96a54947)**
+
+📱 **Open in Expo Go:** `exp://u.expo.dev/c6632ceb-9e8e-48d2-9c3e-69efb91b5075?channel-name=main`
