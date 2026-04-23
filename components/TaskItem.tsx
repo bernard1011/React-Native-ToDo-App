@@ -16,7 +16,7 @@ type Props = {
   onToggle: (id: string) => void;
 };
 
-export default function TaskItem({ task, onDelete, onToggle }: Props) {
+const TaskItem = ({ task, onDelete, onToggle }: Props) => {
   return (
     <BlurView
       intensity={20}
@@ -90,3 +90,5 @@ const styles = StyleSheet.create({
     padding: 4,
   },
 });
+
+export default TaskItem;

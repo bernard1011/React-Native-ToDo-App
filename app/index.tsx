@@ -17,7 +17,7 @@ import TaskList from '@/components/TaskList';
 import  useTasks  from '@/hooks/useTasks';
 import { COLORS, FONTS, RADIUS } from '@/constants/theme';
 
-export default function HomeScreen() {
+const HomeScreen = () => {
   const { tasks, addTask, deleteTask, toggleTask, clearAll } = useTasks();
   const doneCount = tasks.filter((t) => t.done).length;
   const isEmpty = tasks.length === 0;
@@ -181,3 +181,5 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
 });
+
+export default HomeScreen;

@@ -14,7 +14,7 @@ type Props = {
   onAdd: (text: string) => void;
 };
 
-export default function TaskInput({ onAdd }: Props) {
+const TaskInput = ({ onAdd }: Props) => {
   const [text, setText] = useState('');
 
   const handleAdd = () => {
@@ -79,3 +79,5 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
 });
+
+export default TaskInput
